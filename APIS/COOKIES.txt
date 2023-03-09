@@ -1,0 +1,6 @@
+when we store jwt in cookie
+[0] Browswer does all the work , No auth bearer problems.... :)
+[1] front end dont need to worry about anything
+[2] Main difference = you can't access jwt with client side js
+[3] Major disadvatage = Maxsize of cookie is small
+[4] Cookies can only be sent to same domain , for fixing this add proxy
